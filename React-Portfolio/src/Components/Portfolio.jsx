@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
-import ExamplePic from '../images/SS.jpg'
+import ExamplePic from '/images/SS.png'
 
 const Portfolio = () => {
   const projects = [
@@ -13,8 +13,8 @@ const Portfolio = () => {
         <h2>Portfolio</h2>
         <div className='flex'>
           {/* this box is going to hold the comment cards */}
-          {projects.map((project) => (
-            <ProjectCard title={project.title} description={project.description} imgsrc={imgsrc} />
+          {projects.map((project, index) => (
+            <ProjectCard title={project.title} description={project.description} imgsrc={project.imgsrc} key={index} />
           ))}
         </div>
       </div>
