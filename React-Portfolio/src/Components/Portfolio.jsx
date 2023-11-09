@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
-import ExamplePic from '../images/ExamplePic.jpg'
+import ExamplePic from '../images/SS.jpg'
 
 const Portfolio = () => {
   const projects = [
