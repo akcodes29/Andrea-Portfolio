@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import "bootswatch/dist/Pulse/bootstrap.min.css"
+import "bootswatch/dist/Morph/bootstrap.min.css"
 import './App.css'
 import Home from './Components/Home'
 import Resume from './Components/Resume'
