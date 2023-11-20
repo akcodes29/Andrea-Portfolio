@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootswatch/dist/Morph/bootstrap.min.css"
 import './App.css'
 import Home from './Components/Home'
@@ -6,7 +7,7 @@ import Resume from './Components/Resume'
 import Portfolio from './Components/Portfolio'
 import Contact from './Components/Contact'
 import Header from './Components/Header'
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Home')

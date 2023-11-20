@@ -23,7 +23,7 @@ const Home = () => {
       {showRain && <Rain />}
       {showSun && <Sun />}
       <div>
-        <h1>About Me</h1>
+        <h1>Welcome</h1>
         <img src={ExamplePic} alt="example" />
         <p>
 Hello there! I'm Andrea, a passionate software developer and technology connoisseur with a relentless curiosity for learning. Armed with a master's degree in education, I bring a unique perspective to the world of coding. My journey in the realm of technology has been nothing short of exhilarating, and I find joy in the art of crafting digital solutions.
@@ -42,7 +42,9 @@ In every line of code I write, there's a blend of creativity, precision, and a g
       </div>
     </div>
   );
+  
 };
+
 
 
 

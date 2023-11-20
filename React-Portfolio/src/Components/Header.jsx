@@ -12,4 +12,7 @@ const Header = ({ currentPage, handlePageChange }) => {
     )
 }
 
+// allows for the hover feature
+<a className="nav-link" href="#home"></a>
+
 export default Header;
