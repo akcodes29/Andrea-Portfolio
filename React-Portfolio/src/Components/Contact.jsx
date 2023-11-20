@@ -1,15 +1,45 @@
-import React from 'react'
+import React, { useState } from 'react';
 
 const Contact = () => {
-    return (
-        <div className ='Contact'>
-        <h1>Contact</h1> 
-        <p>Phone: 555-555-5555</p>
-        <p>Email: keriazes.andrea@gmail.com</p>
-        <p>LinkedIn: <a href="www.linkedin.com/in/andrea-k29" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/andrea-k29</a></p>
-        <p>GitHub: <a href="https://github.com/akcodes29" target="_blank" rel="noopener noreferrer">https://github.com/akcodes29</a></p>
-      </div>
-    )
-}
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
-export default Contact;
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // Here you would typically send the form data to a server or an email service
+    console.log(`Name: ${name}, Email: ${email}, Message: ${message}`);
+    setName('');
+    setEmail('');
+    setMessage('');
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <h2>Contact</h2>
+      <label>
+        Name: 
+        <input type="text" value={name} onChange={(e) => setName(e.target.value)} required />
+      </label>
+      <br />
+      <br />
+      <label>
+        Email:
+        <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+      </label>
+      <br />
+      <br />
+      <label>
+        Message:
+        <textarea value={message} onChange={(e) => setMessage(e.target.value)} required />
+      </label>
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+      <br />
+      <br />
+    </form>
+  );
+};
+
+export default Contact

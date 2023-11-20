@@ -1,16 +1,6 @@
 import React from 'react';
 
 
-
-// const Sun = () => (
-//     <div className="sun">
-//     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" preserveAspectRatio="xMidYMid meet">
-//       <circle cx="25" cy="25" r="20" fill="yellow" />
-//       <circle cx="25" cy="25" r="15" fill="orange" />
-//     </svg>
-//   </div>
-// );
-
 const Sun = () => (
     <div className="sun">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">

@@ -3,8 +3,6 @@ import Sun from './Sun' // Import the Sun component
 import Rain from './Rain' // Import the Rain component
 import ExamplePic from '../images/SS.png'
 
-
-
 const Home = () => {
   const [showRain, setShowRain] = useState(true);
   const [showSun, setShowSun] = useState(false);
@@ -46,7 +44,4 @@ In every line of code I write, there's a blend of creativity, precision, and a g
 };
 
 
-
-
 export default Home;
-
