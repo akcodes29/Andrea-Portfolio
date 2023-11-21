@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "bootswatch/dist/Morph/bootstrap.min.css"
+import "bootswatch/dist/morph/bootstrap.min.css"
 import './App.css'
 import Home from './Components/Home'
 import Resume from './Components/Resume'
