@@ -1,5 +1,7 @@
 # Andrea-Portfolio
 
+This repo is a personal professional portfolio I created to demonstrate my skills to industry professionals. 
+
 ## User Story
 AS AN employer looking for candidates with experience building single-page applications
 I WANT to view a potential employee's deployed React portfolio of work samples
@@ -13,3 +15,11 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+## Live URL
+https://andreak-portfolio.netlify.app/
+
+## Github 
+
+https://github.com/akcodes29/Andrea-Portfolio
