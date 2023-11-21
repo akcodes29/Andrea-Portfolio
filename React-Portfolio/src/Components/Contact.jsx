@@ -7,7 +7,7 @@ const Contact = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Here you would typically send the form data to a server or an email service
+    // Here you would typically send the form data to a server or an email service; keeping this for now
     console.log(`Name: ${name}, Email: ${email}, Message: ${message}`);
     setName('');
     setEmail('');
