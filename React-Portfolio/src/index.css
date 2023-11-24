@@ -56,6 +56,18 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.githubRepo {
+  border-radius: 50%;
+  border: 1px;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  font-weight: 400;
+  font-family: inherit;
+  background-color: rgb(166, 166, 245);
+  cursor: cell;
+  transition: border-color 0.75s;
+}
+
 
 @media (prefers-color-scheme: light) {
   :root {
