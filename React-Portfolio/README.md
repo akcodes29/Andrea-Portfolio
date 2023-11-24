@@ -1,25 +1,24 @@
 # Andrea-Portfolio
+This project is a personal professional portfolio I created using React to demonstrate my skills to industry professionals.
 
-This repo is a personal professional portfolio I created to demonstrate my skills to industry professionals. 
+## Installation
+No installation is necessary. [You can view my portfolio here hosted on netlify.](https://andreak-portfolio.netlify.app/)
 
-## User Story
-AS AN employer looking for candidates with experience building single-page applications
-I WANT to view a potential employee's deployed React portfolio of work samples
-SO THAT I can assess whether they're a good candidate for an open position
+## Usage
+The portfolio is easy to navigate, use the nav-bar at the top of the page to navigate to the different sections. 
 
-## React + Vite
+*The Home page features a welcome section.
+*In the About Me section please enjoy the rain and sun feature I added for fun. You will find a short description of information about myself, my skills, my passions, and my background. At the bottom of the page you will see a link to the portfolio's repo. 
+*The Resume page features a link my resume.
+*In the Portfolio section you will find various projects I have worked on with a short description and link to bring you to the page. 
+*The Contact page has a form you can fill out if you have any questions!
+*Throughout the app you will see icons in the footer that will bring you to my Github, Linkedin, and Email.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ScreenShot
+![Portfolio Screenshot](src\images\portfolioSSreadMe.png)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
+## Github 
+https://github.com/akcodes29/Andrea-Portfolio
 
 ## Live URL
 https://andreak-portfolio.netlify.app/
-
-## Github 
-
-https://github.com/akcodes29/Andrea-Portfolio
