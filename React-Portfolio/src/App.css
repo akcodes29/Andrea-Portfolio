@@ -18,6 +18,14 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.gitRepo:hover {
+  color: purple;
+  transform: scale(1.5);
+}
+
+.resumeLink:hover {
+  color: rgb(247, 20, 247);
+}
 
 
 .Home{

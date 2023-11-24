@@ -39,7 +39,7 @@ const AboutMe = () => {
           In every line of code I write, there's a blend of creativity, precision, and a genuine enthusiasm for building solutions that make a difference. Join me on this exciting journey through the ever-evolving landscape of technology, where the thrill of discovery and the joy of creation converge in the world of software development.
           <br />
           <br />
-          <a href="https://github.com/akcodes29/Andrea-Portfolio" target="_blank">Click here to view the repo for this portfolio.</a>
+          <a className="gitRepo" href="https://github.com/akcodes29/Andrea-Portfolio" target="_blank">Click here to view the repo for this portfolio.</a>
         </p>
       </div>
       <br />
