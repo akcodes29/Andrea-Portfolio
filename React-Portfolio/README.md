@@ -1,6 +1,13 @@
 # Andrea-Portfolio
 This project is a personal professional portfolio I created using React to demonstrate my skills to industry professionals.
 
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [ScreenShot](#screenshot)
+- [Github](#github)
+- [Live URL](#live-url)
+
 ## Installation
 No installation is necessary. [You can view my portfolio here hosted on netlify.](https://andreak-portfolio.netlify.app/)
 
@@ -21,4 +28,4 @@ The portfolio is easy to navigate, use the nav-bar at the top of the page to nav
 https://github.com/akcodes29/Andrea-Portfolio
 
 ## Live URL
-https://andreak-portfolio.netlify.app/
+Netlify Deployment: https://andreak-portfolio.netlify.app/

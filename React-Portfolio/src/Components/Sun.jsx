@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+// Sun component using SVG animation and CSS animation properties 
 const Sun = () => (
     <div className="sun">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">

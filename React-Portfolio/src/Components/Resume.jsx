@@ -1,6 +1,6 @@
 import React from 'react'
 
-
+// Resume component with a link to my resume
 const Resume = () => {
     return (
         <div className ='Resume'>

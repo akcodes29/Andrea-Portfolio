@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav from './Nav'
 
-
+// Header component
 const Header = ({ currentPage, handlePageChange }) => {
     console.log(currentPage)
     return (

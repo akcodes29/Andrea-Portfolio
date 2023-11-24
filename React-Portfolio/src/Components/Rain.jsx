@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+// Rain component using SVG animation and CSS animation properties 
 const Rain = () => {
     return (
       <div className="rain">

@@ -3,6 +3,8 @@ import Sun from './Sun' // Import the Sun component
 import Rain from './Rain' // Import the Rain component
 import ExamplePic from '../images/SS.png'
 
+
+// Initializes the Rain and Sun components
 const AboutMe = () => {
   const [showRain, setShowRain] = useState(true);
   const [showSun, setShowSun] = useState(false);
@@ -11,15 +13,17 @@ const AboutMe = () => {
     const timer = setTimeout(() => {
       setShowRain(false);
       setShowSun(true);
-    }, 11000); // 11 seconds
+    }, 11000); // after 11 seconds the Sun will be displayed
 
     return () => clearTimeout(timer);
   }, []);
 
   return (
     <div>
-      {showRain && <Rain />}
-      {showSun && <Sun />}
+      {/* calls the Rain component to be displayed */}
+      {showRain && <Rain />}  
+      {/* calls the Sun component to be displayed */}
+      {showSun && <Sun />}  
       <div>
         <h1>Welcome</h1>
         <img src={ExamplePic} alt="example" />

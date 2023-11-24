@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+// Within the SVG tags are the icons for GitHub, LinkedIn, and Email. The links are set to open in a new tab. The icons are from Bootstrap
 const Footer = () => {
   return (
     <footer className= "footer">
