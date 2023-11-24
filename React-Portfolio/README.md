@@ -4,9 +4,9 @@ This project is a personal professional portfolio I created using React to demon
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [ScreenShot](#screenshot)
 - [Github](#github)
 - [Live URL](#live-url)
+- [ScreenShot](#screenshot)
 
 ## Installation
 No installation is necessary. [You can view my portfolio here hosted on netlify.](https://andreak-portfolio.netlify.app/)
