@@ -23,6 +23,7 @@ The portfolio is easy to navigate, use the nav-bar at the top of the page to nav
 
 ## ScreenShot
 ![Portfolio Screenshot](src\images\portfolioSSreadMe.png)
+<img href="src\images\portfolioSSreadMe.png" >
 
 ## Github 
 https://github.com/akcodes29/Andrea-Portfolio
