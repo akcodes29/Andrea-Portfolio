@@ -8,6 +8,7 @@ import Portfolio from './Components/Portfolio'
 import Contact from './Components/Contact'
 import Header from './Components/Header'
 import Footer from './Components/Footer';
+import AboutMe from './Components/AboutMe';
 
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
   const renderPage = () => {
     if (currentPage === 'Home') {
       return <Home />
+    }
+    if (currentPage === 'About Me') {
+      return <AboutMe />
     }
     if (currentPage === 'Resume') {
       return <Resume />

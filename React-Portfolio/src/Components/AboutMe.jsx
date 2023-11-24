@@ -3,7 +3,7 @@ import Sun from './Sun' // Import the Sun component
 import Rain from './Rain' // Import the Rain component
 import ExamplePic from '../images/SS.png'
 
-const Home = () => {
+const AboutMe = () => {
   const [showRain, setShowRain] = useState(true);
   const [showSun, setShowSun] = useState(false);
 
@@ -49,5 +49,4 @@ const Home = () => {
 
 };
 
-
-export default Home;
+export default AboutMe;

@@ -16,6 +16,15 @@ const Nav = ({ currentPage, handlePageChange }) => {
                 </li>
                 <li className="nav-item">
                     <a
+                        href="#aboutme"
+                        onClick={() => handlePageChange('About Me')}
+                        className={currentPage === 'About Me' ? 'nav-link active' : 'nav-link'}
+                    >
+                        About Me
+                    </a>
+                </li>
+                <li className="nav-item">
+                    <a
                         href="#resume"
                         onClick={() => handlePageChange('Resume')}
                         className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
