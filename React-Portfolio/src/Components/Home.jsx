@@ -6,16 +6,16 @@ const Home = () => {
 
   return (
     <div className="Home">
-      <h3>Welcome</h3>
-      <h2>I am Andrea K</h2>
+      
+      <iframe src="https://giphy.com/embed/xUPGGDNsLvqsBOhuU0" width="340" height="220" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/animation-cool-hello-xUPGGDNsLvqsBOhuU0"></a></p>
+      <h2>I'm Andrea K</h2>
+      <h3>Full Stack Web Developer</h3>
 
       <TypeAnimation
         sequence={[
           // Same substring at the start will only be typed out once, initially
-          'Full Stack Web Developer',
-          1000, // wait 1s before replacing 
           'MongoDB',
-          1000,
+          1000, // wait 1s before replacing 
           'Express.js',
           1000,
           'React.js',
