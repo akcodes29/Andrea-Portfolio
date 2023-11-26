@@ -22,6 +22,14 @@ const Home = () => {
           1000,
           'Node.js',
           1000,
+          'HTML',
+          1000,
+          'JavaScript',
+          1000,
+          'jQuery',
+          1000,
+          'MySQL',
+          1000,
           'I love to code!',
           1000
         ]}
