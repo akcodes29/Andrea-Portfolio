@@ -7,7 +7,7 @@ const Resume = () => {
         <h1>Resume
         </h1>
         <br />
-        <h2> <a className="resumeLink" href="https://docs.google.com/document/d/1EMFgmtonruV5CbZM3iu266JlQcgv90PEC6dDXlCxQdU/edit?usp=sharing" target="_blank">Click Here To View My Resume</a> </h2>
+        <h2> <a className="resumeLink" href=".\public\Software-Dev-Resume.pdf" target="_blank">Click Here To View My Resume</a> </h2>
         <br />
         <br />
         <br />
