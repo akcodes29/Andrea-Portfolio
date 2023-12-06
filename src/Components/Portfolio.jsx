@@ -3,6 +3,7 @@ import ProjectCard from './ProjectCard'
 import CafeTransmuteSS from '../images/CafeTransmuteSS.png'
 import leaptosuccess from '../images/leaptosuccess.png'
 import comingsoon from '../images/comingsoon.png'
+import tswiftquiz from '../images/tswiftquizss.png'
 
 const Portfolio = () => {
   const projects = [
@@ -20,8 +21,7 @@ const Portfolio = () => {
     link: 'https://aads10323-501dfea30cfd.herokuapp.com/', 
     githublink: 'https://github.com/akcodes29/Leap-To-Success'
   }, 
-    {title: 'Project 3...TBD', description: 'the third project', imgsrc: comingsoon, buttonText: 'View Project 3'},
-    {title: 'Project 3...TBD', description: 'the third project', imgsrc: comingsoon, buttonText: 'View Project 3'},
+    {title: 'Taylor Swift Quiz', description: 'This is a timed quiz I created with Taylor Swift questions!', imgsrc: tswiftquiz , buttonText: 'Taylor Swift Quiz', link: 'https://akcodes29.github.io/Timed-Quiz/', githublink: 'https://github.com/akcodes29/Timed-Quiz'},
     {title: 'Project 3...TBD', description: 'the third project', imgsrc: comingsoon, buttonText: 'View Project 3'},
     {title: 'Project 3...TBD', description: 'the third project', imgsrc: comingsoon, buttonText: 'View Project 3'},
     
