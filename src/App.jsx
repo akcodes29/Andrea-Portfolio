@@ -9,37 +9,17 @@ import Contact from './Components/Contact'
 import Header from './Components/Header'
 import Footer from './Components/Footer';
 import AboutMe from './Components/AboutMe';
+import { Outlet, useLocation } from 'react-router-dom';
 
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('Home')
-
-  const renderPage = () => {
-    if (currentPage === 'Home') {
-      return <Home />
-    }
-    if (currentPage === 'About Me') {
-      return <AboutMe />
-    }
-    if (currentPage === 'Resume') {
-      return <Resume />
-    }
-    if (currentPage === 'Portfolio') {
-      return <Portfolio />
-    }
-    if (currentPage === 'Contact') {
-      return <Contact />
-    }
-    
-}
-
-const handlePageChange = (page) => setCurrentPage(page)
+  const currentPage = useLocation().pathname
 
   return (
     <>
-    <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+    <Header currentPage={currentPage}  />
     <main>
-      {renderPage()}
+     <Outlet />
     </main>
     <Footer />
     </>

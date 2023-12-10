@@ -2,12 +2,12 @@ import React from 'react'
 import Nav from './Nav'
 
 // Header component
-const Header = ({ currentPage, handlePageChange }) => {
+const Header = ({ currentPage }) => {
     console.log(currentPage)
     return (
         <header>
             <h1></h1>
-            <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+            <Nav currentPage={currentPage}  />
         </header>
     )
 }

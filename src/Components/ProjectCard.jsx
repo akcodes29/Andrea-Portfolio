@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 
 function ProjectCard({title, description, imgsrc, buttonText, link, githublink}) {
   return (
-    <Card style={{ width: '30rem' }}>
+    <Card style={{ width: '30rem', margin: "5px" }}>
       <Card.Img variant="top" src={imgsrc} />
       <Card.Body>
         <Card.Title>{title}</Card.Title>

@@ -122,6 +122,11 @@
   
 }
 
+.active {
+  color: #1316a1; 
+  transform: scale(2.0);
+}
+
 
 .footer {
   display: flex;
