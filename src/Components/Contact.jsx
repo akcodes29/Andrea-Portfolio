@@ -11,7 +11,7 @@ const Contact = () => {
           <div className="form-group">
             <div className="form-row">
               
-              <input type="hidden" name='_next' value='https://andreak-portfolio.netlify.app/thankyou.jsx' />
+              <input type="hidden" name='_next' value='https://andreak-portfolio.netlify.app/contact.jsx' />
               <div className="col">
                 <input type="text" name='name' className="form-control" placeholder='Full Name' required />
               </div>
