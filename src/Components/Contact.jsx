@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const Contact = () => {
 
@@ -11,7 +11,7 @@ const Contact = () => {
           <div className="form-group">
             <div className="form-row">
               
-              {/* <input type="hidden" name='_next' value='https://andreak-portfolio.netlify.app/contact.jsx' /> */}
+              <input type="hidden" name='_next' value='https://andreak-portfolio.netlify.app/thankyou' />
               <div className="col">
                 <input type="text" name='name' className="form-control" placeholder='Full Name' required />
               </div>
