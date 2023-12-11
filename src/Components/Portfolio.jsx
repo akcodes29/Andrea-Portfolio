@@ -30,7 +30,7 @@ const Portfolio = () => {
   ]
   return (
     <div className='Portfolio'>
-      <h2>Portfolio</h2>
+      <h3>Check Out Some of My Projects!</h3>
       <div className='projects'>
         {/* this box is going to hold the comment cards */}
         {projects.map((project, index) => (
