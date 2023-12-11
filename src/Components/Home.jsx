@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="Home">
       
-      <iframe src="https://giphy.com/embed/xUPGGDNsLvqsBOhuU0" width="340" height="220" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/animation-cool-hello-xUPGGDNsLvqsBOhuU0"></a></p>
+      <iframe src="https://giphy.com/embed/xUPGGDNsLvqsBOhuU0" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/animation-cool-hello-xUPGGDNsLvqsBOhuU0"></a></p>
       <h2>I'm Andrea K</h2>
       <h3>Software Developer</h3>
 

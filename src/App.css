@@ -151,6 +151,10 @@ input[type="submit"]:hover {
   background-color: #092292; 
 }
 
+.col {
+  margin-bottom: .75em;
+}
+
 
 
 /* // Queries  */
@@ -163,12 +167,66 @@ input[type="submit"]:hover {
       left: 20px;
     }
   }
-  
-  @media (max-width: 500px) {
-    .sun {
-      width: 60px;
-      height: 60px;
-      top: 130px;
-      left: 20px;
+
+  @media (max-width: 600px) {
+
+    .navbar {
+      font-size: 13px;
     }
+
+    .Home {
+      padding: .5em;
+    }
+
+  }
+  
+  @media (max-width: 508px) {
+
+    .navbar {
+      font-size: 12px;
+      display: inline-block;
+    }
+    
+
+    .Home {
+      padding: .5em;
+    }
+
+    .giphy-embed {
+      width: 100%;
+    }
+
+  }
+
+  @media (max-width: 400px) {
+
+    .sun {
+      width: 70px;
+      height: 70px;
+      top: 120px;
+      left: 13px;
+    }
+
+    .navbar {
+      font-size: 12px;
+      display: inline-block;
+      flex-direction: column;
+    }
+
+    .nav-item {
+      display: inline-flex;
+    }
+
+    .Home {
+      padding: .8em;
+    }
+
+    .giphy-embed {
+      width: 100%;
+    }
+
+    .col {
+      margin-bottom: .75em;
+    }
+
   }
