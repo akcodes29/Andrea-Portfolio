@@ -183,7 +183,7 @@ input[type="submit"]:hover {
   @media (max-width: 508px) {
 
     .navbar {
-      font-size: 12px;
+      font-size: 14px;
       display: inline-block;
     }
     
@@ -208,7 +208,7 @@ input[type="submit"]:hover {
     }
 
     .navbar {
-      font-size: 12px;
+      font-size: 14px;
       display: inline-block;
       flex-direction: column;
     }
