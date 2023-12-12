@@ -1,4 +1,5 @@
 import React from 'react'
+import resume from '../A.Keriazes-Dev-Resume.pdf'
 
 // Resume component with a link to my resume
 const Resume = () => {
@@ -7,7 +8,7 @@ const Resume = () => {
         <h1>Resume
         </h1>
         <br />
-        <h2> <a className="resumeLink" href="https://andreak-portfolio.netlify.app/A.Keriazes-Dev-Resume.pdf" target="_blank">Click Here To View My Resume</a> </h2>
+        <h2> <a className="resumeLink" href={resume} target="_blank">Click Here To View My Resume</a> </h2>
         <br />
         <br />
         <br />
