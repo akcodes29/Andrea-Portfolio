@@ -40,7 +40,7 @@ const AboutMe = () => {
           Whether it's unraveling the intricacies of a new programming language, exploring innovative development methodologies, or diving into the world of emerging technologies, I embrace each opportunity to expand my knowledge base. My dedication to education doesn't end with my degree; it's a guiding principle that fuels my professional growth and contributes to the success of the projects I undertake.
           <br />
           <br />
-          In every line of code I write, there's a blend of creativity, precision, and a genuine enthusiasm for building solutions that make a difference. Join me on this exciting journey through the ever-evolving landscape of technology, where the thrill of discovery and the joy of creation converge in the world of software development.
+          In every line of code I write, there's a blend of creativity, precision, and a genuine enthusiasm for building solutions that make a difference. I'm excited to continue my journey as a software developer and look forward to the challenges and opportunities that lie ahead.
           <br />
           <br />
           <a className="gitRepo" href="https://github.com/akcodes29/Andrea-Portfolio" target="_blank">Click here to view the repo for this portfolio.</a>
