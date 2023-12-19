@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard'
 import CafeTransmuteSS from '../images/CafeTransmuteSS.png'
 import leaptosuccess from '../images/leaptosuccess.png'
 import comingsoon from '../images/comingsoon.png'
-import tswiftquiz from '../images/tswiftquizss.png'
+import weatherDash from '../images/weather-dashboard-ss.png'
 import workoutwiz from '../images/workoutwiz-ss.png'
 import swiftquiz from '../images/swiftquiz-ss.png'
 
@@ -27,7 +27,7 @@ const Portfolio = () => {
     },
     { title: 'Taylor Swift Quiz', description: 'This is a timed quiz I created with Taylor Swift questions!', imgsrc: swiftquiz, buttonText: 'Taylor Swift Quiz', link: 'https://akcodes29.github.io/Timed-Quiz/', githublink: 'https://github.com/akcodes29/Timed-Quiz' },
     { title: 'WorkoutWiz', description: 'WorkoutWiz is a workout tracking app. It gives you the ability to keep track of your type of workout, reps, sets, and weight, with a fully functional calendar that highlights the days you worked out. Conveniently allowing the user to click on the day they want to look at and see their inputted exercises they did for that day. WorkoutWiz also comes with an awesome feature that allows users to ask a certified personal trainer questions. Head on over to WorkoutWiz, create a user account, and start you workout journey!', imgsrc: workoutwiz, buttonText: 'WorkoutWiz', link:'https://workoutwiz-f5a608d8a6a9.herokuapp.com', githublink: 'https://github.com/brianahlers/workoutwiz' },
-    { title: 'Project 3...TBD', description: 'the third project', imgsrc: comingsoon, buttonText: 'View Project 3' },
+    { title: 'Weather Dashboard', description: 'Weather Dashboard is a weather tacking app I created using the openweather map API. Check any cities 5 day weather forecast today with this Weather Dashboard! ', imgsrc: weatherDash, buttonText: 'Weather Dashboard', link: 'https://akcodes29.github.io/Weather-Dashboard/', githublink: 'https://github.com/akcodes29/Weather-Dashboard' },
 
   ]
   return (
