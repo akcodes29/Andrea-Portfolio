@@ -28,7 +28,7 @@ const AboutMe = () => {
         <h1>Welcome</h1>
         <img src={ExamplePic} alt="example" />
         <p>
-          Hello there! I'm Andrea, a passionate software developer and technology connoisseur with a relentless curiosity for learning. Armed with a master's degree in education, I bring a unique perspective to the world of coding. My journey in the realm of technology has been nothing short of exhilarating, and I find joy in the art of crafting digital solutions.
+          Hello there! I'm Andrea, a passionate software developer and technology connoisseur with a relentless curiosity for learning. Armed with a Master's degree in education and currently enrolled in UCF's Computer Science program, I bring a unique perspective to the world of coding. My journey in the realm of technology has been nothing short of exhilarating, and I find joy in the art of crafting digital solutions.
           <br />
           <br />
           My coding playground predominantly revolves around the MERN stack, where I thrive in leveraging MongoDB, Express.js, React.js, and Node.js to create robust and dynamic applications. In the backend, Node.js and Express.js form the backbone of my projects, facilitating seamless server-side operations. MongoDB, with its flexible and scalable database architecture, serves as the cornerstone for data storage, while React.js empowers me to build intuitive and responsive user interfaces on the frontend.
