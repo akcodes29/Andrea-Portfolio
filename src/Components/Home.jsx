@@ -28,7 +28,9 @@ const Home = () => {
           1000,
           'jQuery',
           1000,
-          'MySQL',
+          'SQL',
+          1000,
+          'C Programming',
           1000,
           'I love to code!',
           1000
