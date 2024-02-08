@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from '/public/A.Keriazes-resume.pdf';
+import resume from '/public/A.Keriazes-Resume.pdf';
 
 // Resume component with a link to my resume
 const Resume = () => {
