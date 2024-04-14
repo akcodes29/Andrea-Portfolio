@@ -18,6 +18,12 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+/* Resume */
+.resumeLink {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
 
 .resumeLink:hover {
   color: rgb(247, 20, 247);
@@ -172,6 +178,7 @@
 
 
 
+
 /* // Queries  */
 
   @media (max-width: 700px) {
@@ -201,8 +208,13 @@
       font-size: 14px;
       display: inline-block;
     }
-    
 
+    .aboutMe {
+      font-size: 1.2em;
+      padding: .5em;
+      margin: .5em;
+    }
+    
     .Home {
       padding: .5em;
     }
@@ -233,7 +245,13 @@
     }
 
     .Home {
-      padding: .8em;
+      font-size: .9em;
+    }
+
+   .aboutMe {
+      font-size: 1.2em;
+      padding: .5em;
+      margin: .5em;
     }
 
     .giphy-embed {

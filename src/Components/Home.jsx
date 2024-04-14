@@ -30,7 +30,7 @@ const Home = () => {
           1000,
           'Analytical',
           1000,
-          'Communicative',
+          'Self-Motivated',
           1000,
           'Leadership',
           1000,
@@ -43,7 +43,7 @@ const Home = () => {
         ]}
         wrapper="span"
         speed={50}
-        style={{ fontSize: '4em', display: 'inline-block', color: 'black', fontWeight: 'bold'}}
+        style={{ fontSize: '3em', display: 'inline-block', color: 'black', fontWeight: 'bold'}}
         repeat={Infinity}
       />
 
