@@ -8,7 +8,7 @@ const Resume = () => {
         <h1>Resume
         </h1>
         <br />
-        <h2> <a className="resumeLink" href={resume} target="_blank">Click Here To View My Resume</a> </h2>
+        <h2> <a className="resumeLink" href={resume} target="_blank">✨Click Here To View My Resume✨</a> </h2>
         <br />
         <br />
         <br />

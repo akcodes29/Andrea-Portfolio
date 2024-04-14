@@ -41,8 +41,8 @@
 /* about me */
 .aboutMe {
   font-size: 1.5em;
-  padding: 2em;
-  margin: 2em;
+  /* padding: 2em;
+  margin: 2em; */
 }
 
 /* git repo link*/
@@ -55,6 +55,21 @@
 .gitRepo:hover {
   color: purple;
   transform: scale(2.0em);
+}
+
+/* Contact */
+.form-control{
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  box-shadow: #080000 0 0 15px;
+}
+
+/* Portfolio page, projects */
+.projects {
+  box-shadow: #080000 0 0 15px;
 }
 
 @keyframes logo-spin {
@@ -115,11 +130,8 @@
   width: 150px;
   height: 150px;
   border-radius: 50%;
-
   animation: glow 2s infinite;
 }
-
-
 
 @keyframes glow {
   0% {
@@ -147,12 +159,10 @@
   transform: scale(2.0);
 }
 
-
 .footer {
   display: flex;
   justify-content: space-between;
 }
-
 
 .submit{
   background-color: hwb(273 8% 61%); 
@@ -175,9 +185,6 @@
 .col {
   margin-bottom: .75em;
 }
-
-
-
 
 /* // Queries  */
 
@@ -260,6 +267,12 @@
 
     .col {
       margin-bottom: .75em;
+    }
+
+    .footer {
+      margin-top: 1em;
+      display: flex;
+      justify-content: space-between;
     }
 
   }
