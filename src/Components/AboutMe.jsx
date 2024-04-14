@@ -24,11 +24,14 @@ const AboutMe = () => {
       {showRain && <Rain />}  
       {/* calls the Sun component to be displayed */}
       {showSun && <Sun />}  
-      <div>
+      <div className='aboutMe'>
         <h1>Welcome</h1>
         <img src={ExamplePic} alt="example" />
         <p>
-          Hello there! I'm Andrea, a versatile professional with a passion for technology and a knack for problem-solving. My journey began with a Bachelor's degree in Political Science from FSU, followed by a Master's degree in Education from the University of Tampa. Transitioning from the realm of education to technology, I embarked on a transformative journey by completing a full-stack coding bootcamp through UCF and currently pursuing further education in Computer Science at UCF. This unique blend of academic backgrounds has equipped me with a diverse skill set that I leverage to create innovative solutions and drive business success.
+          I'm Andrea, a versatile professional with a passion for technology and a knack for problem-solving. My journey began with a Bachelor's degree in Political Science from FSU, followed by a Master's degree in Education from the University of Tampa. Transitioning from the realm of education to technology, I embarked on a transformative journey by completing a full-stack coding bootcamp through UCF and currently pursuing further education in Computer Science at UCF. This unique blend of academic backgrounds has equipped me with a diverse skill set that I leverage to create innovative solutions and drive business success.
+          <br />
+          <br />
+          As a brand manager for a company that has generated multi-millions and traversed the nation, I've played a pivotal role in shaping and elevating the brand's presence in the digital realm and beyond. Led the planning and execution of integrated marketing campaigns spanning various channels, including digital, social media, podcasts, and hosted events. By orchestrating cohesive campaigns across multiple touchpoints, we were able to maximize brand exposure and engagement, driving significant results and ROI. My experience in brand management has honed my skills in strategic planning, project management, and cross-functional collaboration, enabling me to deliver impactful results that align with business objectives.
           <br />
           <br />
           During my five years as an educator, I dedicated myself to empowering students in low socioeconomic status schools by integrating technology into the classroom. This experience ignited my interest in software development, leading me to specialize in the MERN stack, where I proficiently leverage MongoDB, Express.js, React.js, and Node.js to craft robust and dynamic applications. Additionally, my repertoire includes proficiency in SQL, NoSQL, JavaScript, SAS, and C programming languages. I have also honed my skills in front-end development, utilizing HTML, CSS, Bootstrap, and Materialize to create visually appealing and user-friendly interfaces.
@@ -43,7 +46,7 @@ const AboutMe = () => {
           As I embark on this exciting journey, I bring with me a unique blend of experiences, a hunger for knowledge, and a relentless drive to excel. I am not just seeking a job; I am eager to become an integral part of a forward-thinking team, where I can apply my diverse skill set and passion for technology to drive innovation and achieve shared goals. 
           <br />
           <br />
-          <a className="gitRepo" href="https://github.com/akcodes29/Andrea-Portfolio" target="_blank">Click here to view the repo for this portfolio.</a>
+          <a className="gitRepo" href="https://github.com/akcodes29/Andrea-Portfolio" target="_blank" >Click here to view the repo for this portfolio.</a>
         </p>
       </div>
       <br />

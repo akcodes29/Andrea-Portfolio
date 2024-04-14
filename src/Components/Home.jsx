@@ -24,9 +24,9 @@ const Home = () => {
           1000,
           'Versatile',
           1000,
-          'Results-driven',
+          'Results-Driven',
           1000,
-          'Customer-centric',
+          'Customer-Centric',
           1000,
           'Analytical',
           1000,
@@ -43,10 +43,13 @@ const Home = () => {
         ]}
         wrapper="span"
         speed={50}
-        style={{ fontSize: '2em', display: 'inline-block' }}
+        style={{ fontSize: '4em', display: 'inline-block', color: 'black', fontWeight: 'bold'}}
         repeat={Infinity}
       />
+
+   
     </div>
+ 
   )
 }
 

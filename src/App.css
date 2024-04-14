@@ -18,10 +18,6 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-.gitRepo:hover {
-  color: purple;
-  transform: scale(1.5);
-}
 
 .resumeLink:hover {
   color: rgb(247, 20, 247);
@@ -34,6 +30,25 @@
   border-radius: 10px;
   margin: 2em;
   box-shadow: 0 0 10px #080000;
+}
+
+/* about me */
+.aboutMe {
+  font-size: 1.5em;
+  padding: 2em;
+  margin: 2em;
+}
+
+/* git repo link*/
+.gitRepo {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.gitRepo:hover {
+  color: purple;
+  transform: scale(2.0em);
 }
 
 @keyframes logo-spin {
@@ -118,8 +133,7 @@
 .nav-link:hover {
   color: #1316a1; 
   transition: color 0.2s ease-in-out; 
-  transform: scale(2.0);
-  
+  transform: scale(2.0);  
 }
 
 .active {
@@ -133,23 +147,24 @@
   justify-content: space-between;
 }
 
-input[type="submit"] {
-  background-color: #4c5baf; 
-  border: none; /* No border */
-  color: white; /* White text */
+
+.submit{
+  background-color: hwb(273 8% 61%); 
+  border: black; /* No border */
+  color: white; /* white text */
   padding: 15px 32px; /* Padding */
   text-align: center; /* Centered text */
   text-decoration: none; 
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   margin: 4px 2px;
   cursor: pointer; /* Pointer cursor on hover */
   transition: background-color 0.3s ease; /* Transition */
 }
 
-input[type="submit"]:hover {
+/* input[type="submit"]:hover {
   background-color: #092292; 
-}
+} */
 
 .col {
   margin-bottom: .75em;
