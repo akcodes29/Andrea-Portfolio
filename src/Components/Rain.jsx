@@ -12,9 +12,9 @@ const Rain = () => {
             src={rainImage}
             alt="rain drop"
             style={{
-              left: `${Math.random() * 100}%`,
-              animationDuration: `${Math.random() * 1 + 4}s`,
-              animationDelay: `${Math.random() * 2}s`
+              left: `${Math.random() * 100}%`, // randomize the position of the rain drops
+              animationDuration: `${Math.random() * 1 + 4}s`, // randomize the duration of the animation
+              animationDelay: `${Math.random() * 2}s` // randomize the delay of the animation
             }}
           />
             

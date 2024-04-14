@@ -25,8 +25,9 @@ const AboutMe = () => {
       {/* calls the Sun component to be displayed */}
       {showSun && <Sun />}  
       <div className='aboutMe'>
-        <h1></h1>
+        
         <img src={ExamplePic} alt="example" />
+        
         <p>
           I'm Andrea, a versatile professional with a passion for technology and a knack for problem-solving. My journey began with a Bachelor's degree in Political Science from FSU, followed by a Master's degree in Education from the University of Tampa. Transitioning from the realm of education to technology, I embarked on a transformative journey by completing a full-stack coding bootcamp through UCF and currently pursuing further education in Computer Science at UCF. This unique blend of academic backgrounds has equipped me with a diverse skill set that I leverage to create innovative solutions and drive business success.
           <br />

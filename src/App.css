@@ -34,8 +34,9 @@
   background-color: #f5f5f504;
   padding: 2em;
   border-radius: 10px;
-  margin: 2em;
+  /* margin: 2em; */
   box-shadow: 0 0 10px #080000;
+  width: 100%;
 }
 
 /* about me */
@@ -104,6 +105,7 @@
 .rain {
   position: absolute;
   width: 100%;
+  right: 25px;
   height: 100%;
   overflow: hidden;
 }
@@ -253,6 +255,10 @@
 
     .Home {
       font-size: .9em;
+      width: 100%;
+      padding: .5em;
+      border-radius: 0px;
+      border: 1px solid #080000;
     }
 
    .aboutMe {
