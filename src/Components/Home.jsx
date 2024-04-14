@@ -9,30 +9,36 @@ const Home = () => {
       
       <iframe src="https://giphy.com/embed/xUPGGDNsLvqsBOhuU0" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/animation-cool-hello-xUPGGDNsLvqsBOhuU0"></a></p>
       <h2>I'm Andrea K</h2>
-      <h3>Software Developer</h3>
+      <h3>Technology Professional</h3>
 
       <TypeAnimation
         sequence={[
           // Same substring at the start will only be typed out once, initially
-          'MongoDB',
+          'Innovative',
           1000, // wait 1s before replacing 
-          'Express.js',
+          'Collaborative',
           1000,
-          'React.js',
+          'Agile',
           1000,
-          'Node.js',
+          'Strategic',
           1000,
-          'HTML',
+          'Versatile',
           1000,
-          'JavaScript',
+          'Results-driven',
           1000,
-          'jQuery',
+          'Customer-centric',
           1000,
-          'SQL',
+          'Analytical',
           1000,
-          'C Programming',
+          'Communicative',
           1000,
-          'I love to code!',
+          'Leadership',
+          1000,
+          'Resilient',
+          1000,
+          'Eager',
+          1000,
+          'Ambitious',
           1000
         ]}
         wrapper="span"
