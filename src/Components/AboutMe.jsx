@@ -1,33 +1,14 @@
-import React, { useEffect, useState } from 'react'
-import Sun from './Sun' // Import the Sun component
-import Rain from './Rain' // Import the Rain component
+import React from 'react'
 import ExamplePic from '../images/SS.png'
 
 
 // Initializes the Rain and Sun components
 const AboutMe = () => {
-  const [showRain, setShowRain] = useState(true);
-  const [showSun, setShowSun] = useState(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowRain(false);
-      setShowSun(true);
-    }, 11000); // after 11 seconds the Sun will be displayed
-
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
-    <div>
-      {/* calls the Rain component to be displayed */}
-      {showRain && <Rain />}  
-      {/* calls the Sun component to be displayed */}
-      {showSun && <Sun />}  
-      <div className='aboutMe'>
-        
-        <img src={ExamplePic} alt="example" />
-        
+    <div className='AboutMe'>
+      <h1>About Me</h1>
+  <div>
+        <img src={ExamplePic} alt="example" />  
         <p>
           I'm Andrea, a versatile professional with a passion for technology and a knack for problem-solving. My journey began with a Bachelor's degree in Political Science from FSU, followed by a Master's degree in Education from the University of Tampa. Transitioning from the realm of education to technology, I embarked on a transformative journey by completing a full-stack coding bootcamp through UCF and currently pursuing further education in Computer Science at UCF. This unique blend of academic backgrounds has equipped me with a diverse skill set that I leverage to create innovative solutions and drive business success.
           <br />
@@ -50,11 +31,10 @@ const AboutMe = () => {
           <a className="gitRepo" href="https://github.com/akcodes29/Andrea-Portfolio" target="_blank" >Click here to view the repo for this portfolio.</a>
         </p>
       </div>
-      <br />
-      <br />
     </div>
-  );
+   
+  )
 
-};
 
+  };
 export default AboutMe;
