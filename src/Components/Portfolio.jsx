@@ -32,7 +32,7 @@ const Portfolio = () => {
   ]
   return (
     <div className='Portfolio'>
-      <h3>Check Out Some of My Projects!</h3>
+      <h3>Check Out My Projects!</h3>
       <h5>🚧Some of the apps may not be viewable due to not being actively deployed🚧</h5>
       <div className='projects'>
         {/* this box is going to hold the comment cards */}
