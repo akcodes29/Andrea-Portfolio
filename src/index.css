@@ -12,6 +12,24 @@
   -webkit-text-size-adjust: 100%;
 }
 
+.resume-background-image {
+  background-image: url('..\src\images\Winter-Haven-Florida-Lake-Howard-Florida-Oak-Tree-768x512.jpg');
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  height: 100vH;
+  width: 100vH;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right:0;
+  height: 100%;
+}
+
+.nav{
+  z-index: 1;
+}
+
 a {
   font-weight: 500;
   color: #646cff;

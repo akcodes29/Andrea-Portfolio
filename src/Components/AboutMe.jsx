@@ -25,7 +25,7 @@ const AboutMe = () => {
           What sets me apart is my unwavering commitment to continuous learning and adaptability. I thrive in dynamic environments, embracing challenges as opportunities for growth. As a lifelong learner, I am eager to acquire new skills and knowledge to contribute effectively to any team or project.
           <br />
           <br />
-          As I embark on this exciting journey, I bring with me a unique blend of experiences, a hunger for knowledge, and a relentless drive to excel. I am not just seeking a job; I am eager to become an integral part of a forward-thinking team, where I can apply my diverse skill set and passion for technology to drive innovation and achieve shared goals. 
+          As I embark on this exciting journey, I bring with me a unique blend of experiences, a hunger for knowledge, and a relentless drive to excel. I am eager to become an integral part of a forward-thinking team, where I can apply my diverse skill set and passion for technology to drive innovation and achieve shared goals. 
           <br />
           <br />
           <a className="gitRepo" href="https://github.com/akcodes29/Andrea-Portfolio" target="_blank" >Click here to view the repo for this portfolio.</a>

@@ -20,19 +20,30 @@
 
 /* Resume */
 .resumeLink {
-  color: #000;
-  text-decoration: none;
+  color: rgb(247, 20, 247);
+  text-decoration: none; 
   transition: color 0.2s ease-in-out;
+  font-size: 1.5em;
 }
 
 .resumeLink:hover {
-  color: rgb(247, 20, 247);
+  color: #ebc6eb;
+  transform: scale(3.0em);
 }
 
 .Resume {
-  background-color: #f5f5f504;
-  
+  padding: 15em;
+}
 
+
+.resume-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://images.unsplash.com/photo-1612838320303-4b3b3b3b3b3b');
+  background-size: cover;
+  background-repeat: repeat;
+  bottom: 0;
 }
 
 
@@ -157,13 +168,13 @@
 }
 
 .nav-link:hover {
-  color: #1316a1; 
+  color: hsl(66, 82%, 44%); 
   transition: color 0.2s ease-in-out; 
   transform: scale(2.0);  
 }
 
 .active {
-  color: #1316a1; 
+  color: #fffb08; 
   transform: scale(2.0);
 }
 
@@ -215,6 +226,18 @@
     .Home {
       padding: .5em;
     }
+/* 
+    .resume-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url('https://images.unsplash.com/photo-1612838320303-4b3b3b3b3b3b');
+      background-size: cover;
+      background-repeat: repeat;
+      bottom: 0;
+    } */
+
+
 
   }
   
@@ -243,17 +266,46 @@
 
   @media (max-width: 400px) {
 
+    .nav {
+      font-size: 16px;
+      font-weight: 500;
+      margin: 0%;
+      padding: 0%;
+      display: flex;
+     flex-direction: row;
+    }
+
+    .resume-background-image{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* background-image: url('https://images.unsplash.com/photo-1612838320303-4b3b3b3b3b3b'); */
+      background-size: cover;
+      background-repeat: repeat;
+    }
+
+    .resume-container {
+      /* display: flex;
+      justify-content: center;
+      align-items: center; */
+      
+      /* padding: 2em; */
+      
+      /* margin: 2em; */
+      
+      width: 10%;
+    }
+
     .sun {
       width: 70px;
       height: 70px;
-      top: 120px;
+      top: 129px;
       left: 13px;
     }
 
     .navbar {
       font-size: 14px;
       display: inline-block;
-      flex-direction: column;
     }
 
     .nav-item {
