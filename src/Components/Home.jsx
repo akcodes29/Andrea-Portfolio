@@ -46,10 +46,7 @@ const Home = () => {
         style={{ fontSize: '3em', display: 'inline-block', color: 'black', fontWeight: 'bold'}}
         repeat={Infinity}
       />
-
-   
     </div>
- 
   )
 }
 
