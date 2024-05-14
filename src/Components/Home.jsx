@@ -7,7 +7,15 @@ const Home = () => {
   return (
     <div className="Home">
       
-      <iframe src="https://giphy.com/embed/xUPGGDNsLvqsBOhuU0" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/animation-cool-hello-xUPGGDNsLvqsBOhuU0"></a></p>
+    
+      <TypeAnimation
+        sequence={[ 'Welcome!', 1000]}
+        wrapper="h1"
+        speed={3}
+        style={{ color: 'yellow', fontWeight: 'bold'}}
+        backspaceSpeed={80}
+        cursor={false}
+      />
       <h2>I'm Andrea K</h2>
       <h3>Technology Professional</h3>
 
