@@ -12,7 +12,6 @@ const Resume = () => {
   const [showRain, setShowRain] = useState(true);
   const [showSun, setShowSun] = useState(false);
   
-
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowRain(false);
@@ -26,11 +25,12 @@ const Resume = () => {
   return (
 
     <div className='resume-background-image'>
+      {showRain  && <Rain />}  
        <div className ='Resume'>
        <h2> <a className="resumeLink" href={resumeLink} target="_blank">✨Click To Download✨</a> </h2>
     
         {/* calls the Rain component to be displayed */}
-       {showRain  && <Rain />}  
+       
        
         {/* <div className="resume-container">
           <img src={ssResume} alt="resume" />

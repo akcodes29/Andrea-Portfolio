@@ -6,8 +6,6 @@ const Home = () => {
 
   return (
     <div className="Home">
-      
-    
       <TypeAnimation
         sequence={[ 'Welcome!', 1000]}
         wrapper="h1"
