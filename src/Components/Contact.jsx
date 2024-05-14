@@ -7,7 +7,7 @@ const Contact = () => {
     <div className="Contact">
       <div className='container my-5'>
         <h1>Let's Connect!</h1>
-        <form action="https://formsubmit.co/akmediastrategies29@gmail.com" target='_blank' method='POST'>
+        <form action="https://formsubmit.co/andreak4774@proton.me" target='_blank' method='POST'>
           <div className="form-group">
             <div className="form-row">
               

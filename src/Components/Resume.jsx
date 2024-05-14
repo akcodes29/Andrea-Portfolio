@@ -26,12 +26,12 @@ const Resume = () => {
   return (
 
     <div className='resume-background-image'>
-       
+       <div className ='Resume'>
+       <h2> <a className="resumeLink" href={resumeLink} target="_blank">✨Click To Download✨</a> </h2>
     
         {/* calls the Rain component to be displayed */}
        {showRain  && <Rain />}  
-       <div className ='Resume'>
-       <h2> <a className="resumeLink" href={resumeLink} target="_blank">✨Click To Download✨</a> </h2>
+       
         {/* <div className="resume-container">
           <img src={ssResume} alt="resume" />
         </div> */}
