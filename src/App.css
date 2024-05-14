@@ -275,16 +275,16 @@
      flex-direction: row;
     }
 
-    .resume-background-image{
+    /* .resume-background-image{
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: center; */
       /* background-image: url('https://images.unsplash.com/photo-1612838320303-4b3b3b3b3b3b'); */
-      background-size: cover;
+      /* background-size: cover;
       background-repeat: repeat;
-    }
+    } */
 
-    .resume-container {
+    /* .resume-container { */
       /* display: flex;
       justify-content: center;
       align-items: center; */
@@ -293,7 +293,14 @@
       
       /* margin: 2em; */
       
-      width: 10%;
+      /* width: 10%; */
+    /* } */
+
+    .resumeLink {
+      font-size: 1.5em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .sun {
@@ -335,7 +342,7 @@
     }
 
     .footer {
-      margin-top: 1em;
+      margin-top: 2em;
       display: flex;
       justify-content: space-between;
     }
