@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Sun from './Sun' // Import the Sun component
 import Rain from './Rain' // Import the Rain component
 import resumeLink from '/public/_A.Keriazes_Resume.pdf';
-import ssResume from '../assets/ssResume_open.png';
+
 
 
 
@@ -21,6 +21,7 @@ const Resume = () => {
 
     return () => clearTimeout(timer);
   }, []);
+
 
   return (
 
