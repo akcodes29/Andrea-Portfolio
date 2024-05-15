@@ -31,6 +31,8 @@ const Portfolio = () => {
   ]
   return (
     <div className='Portfolio'>
+      <br />
+      <br />
       <h3>Check Out My Projects!</h3>
       <h5>🚧Some of the projects may not be viewable due to not being actively deployed🚧</h5>
       <div className='projects'>
