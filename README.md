@@ -22,10 +22,10 @@ The portfolio is easy to navigate, use the nav-bar at the top of the page to nav
 * Throughout the app you will see icons in the footer that will bring you to my Github, Linkedin, and Email.
 
 ## Github 
-https://github.com/akcodes29/Andrea-Portfolio
+https://github.com/akcodes29/Keriazes-Andrea-Portfolio
 
 ## Live URL
-Netlify Deployment: https://andreak-portfolio.netlify.app/
+Netlify Deployment: https://andreakeriazes.netlify.app/
 
 ## ScreenShot
 ![Screenshot](portfolioSSreadMe.png)
