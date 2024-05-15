@@ -30,7 +30,9 @@ const AboutMe = () => {
           As I embark on this exciting journey, I bring with me a unique blend of experiences, a hunger for knowledge, and a relentless drive to excel. I am eager to become an integral part of a forward-thinking team, where I can apply my diverse skill set and passion for technology to drive innovation and achieve shared goals. 
           <br />
           <br />
-          <a className="gitRepo" href="https://github.com/akcodes29/Keriazes-Andrea-Portfolio" target="_blank" >Click here to view the repo for this portfolio.</a>
+          <a className="gitRepo" href="https://github.com/akcodes29/Keriazes-Andrea-Portfolio" target="_blank" >🌟Click here to view the repo for this portfolio.🌟</a>
+          <br />
+          <br />
         </p>
       </div>
     </div>
