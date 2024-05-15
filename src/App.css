@@ -26,6 +26,9 @@
   text-decoration: none; 
   transition: color 0.2s ease-in-out;
   font-size: 1.5em;
+  padding: 5em;
+  margin: 5em;
+  display: flex;
 }
 
 .resumeLink:hover {
@@ -33,11 +36,11 @@
   transform: scale(3.0em);
 }
 
-.Resume {
-  padding: 15em;
-}
+/* .Resume {
+  padding: 20em;
+} */
 
-
+/* 
 .resume-container {
   display: flex;
   justify-content: center;
@@ -46,7 +49,7 @@
   background-size: cover;
   background-repeat: repeat;
   bottom: 0;
-}
+} */
 
 
 .Home{
@@ -183,7 +186,10 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  margin-top: 1em;
+  margin-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 .submit{
