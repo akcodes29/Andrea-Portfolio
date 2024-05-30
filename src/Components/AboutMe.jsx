@@ -1,5 +1,5 @@
 import React from 'react'
-import ExamplePic from '../images/SS.png'
+import headshot from '../images/headshot.png'
 
 
 // Initializes the Rain and Sun components
@@ -10,7 +10,7 @@ const AboutMe = () => {
       <br />
    
   <div>
-        <img src={ExamplePic} alt="example" />  
+        <img src={headshot} alt="example" />  
         <p>
           I'm Andrea, a versatile professional with a passion for technology. My journey began with a Bachelor's degree in Political Science from Florida State University, followed by a Master's degree in Education from the University of Tampa. Transitioning from the realm of education to technology, I embarked on a transformative journey by completing a full-stack coding bootcamp through UCF and currently pursuing further education in Computer Science at University of Central Florida. This unique blend of academic backgrounds has equipped me with a diverse skill set that I leverage to create innovative solutions and drive business success.
           <br />
