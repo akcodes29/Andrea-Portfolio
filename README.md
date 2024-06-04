@@ -9,7 +9,7 @@ This project is a personal professional portfolio I created using React to demon
 - [ScreenShot](#screenshot)
 
 ## Installation
-No installation is necessary. [You can view my portfolio here hosted on netlify.](https://andreak-portfolio.netlify.app/)
+No installation is necessary. [You can view my portfolio here hosted on netlify.](https://andreakeriazes.netlify.app/)
 
 ## Usage
 The portfolio is easy to navigate, use the nav-bar at the top of the page to navigate to the different sections. 
